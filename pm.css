@@ -14,15 +14,19 @@ body {
     background-color: #f7f5ed;
 }
 
-/* HEADER STYLES */
+/* HEADER & FOOTER STYLES */
 
-#header {
+#header, #footer {
     margin-left: auto;
     margin-right: auto;
     max-width: 51rem;
     height: 4rem;
     background-color: #6d9093;
-    box-shadow: 2px 3px 3px #00000044;
+    box-shadow: 2px 3px 3px #00000022;
+}
+
+#footer {
+    margin-top: 100px;
 }
 
 #header-content {
@@ -31,6 +35,14 @@ body {
     max-width: 35rem;
     height: 4rem;
     /* background-color: green; /**/
+}
+
+#footer-content {
+    padding-left: 3em;
+    padding-top: 1.4em;
+    top: 0.8rem;
+    color: white;
+    font-family: 'Josefin Slab', serif;
 }
 
 #header #header-content #title {
@@ -48,13 +60,23 @@ body {
     height: 100%;
 }
 
+#linkbox a {
+    text-decoration: none;
+}
+
 #linkbox #link-text {
+    display: block;
     position: relative;
     top: 0.2rem;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
+    height: 1.8rem;
+}
+
+#linkbox #link-text img {
+    height: 2rem;
 }
 
 #linkbox #link-button {
