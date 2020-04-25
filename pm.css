@@ -17,31 +17,28 @@ body {
 /* HEADER & FOOTER STYLES */
 
 #header, #footer {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 51rem;
-    height: 4rem;
+    height: 6rem;
     background-color: #6d9093;
     box-shadow: 2px 3px 3px #00000022;
 }
 
 #footer {
-    /*margin-top: 100px;/**/
+    /**/
 }
 
 #header-content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 35rem;
-    height: 4rem;
-    /* background-color: green; /**/
+    margin: 0 auto;
+    max-width: 40rem;
 }
 
 #footer-content {
-    padding-left: 3em;
+    padding-left: 1em;
     padding-top: 1.4em;
     top: 0.8rem;
     color: white;
+    font-size: 1.5rem;
     font-family: 'Josefin Slab', serif;
 }
 
@@ -51,12 +48,12 @@ body {
 }
 
 #header #header-content #title img {
-    height: 4rem;
+    height: 6rem;
 }
 
 #header #header-content #linkbox {
     float: right;
-    height: 100%;
+    height: 6em;
 }
 
 #linkbox a {
@@ -71,16 +68,16 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    height: 1.8rem;
+    height: 3.2rem;
 }
 
 #linkbox #link-text img {
-    height: 2rem;
+    height: 3.2rem;
 }
 
 #linkbox #link-button {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
 }
@@ -97,7 +94,7 @@ body {
 
 /* PRICELIST STYLES */
 #pricelist {
-
+    /**/
 }
 
 #cards {
@@ -106,7 +103,7 @@ body {
 
 .showcase {
     text-align: center;
-    /*width: 100%;*/
+    max-width: 50em;
     height: 280px;
     /*margin-bottom: 200px;*/
 }
@@ -130,7 +127,7 @@ body {
     position: relative;
     bottom: 6.5rem;
     background-color: #e2e2e2;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 0.2rem;
     z-index: -2;
 }
@@ -150,7 +147,7 @@ body {
 }
 
 .showcase .art img {
-    width: 70%;
+    width: 100%;
     max-width: 220px;
     box-shadow: 2px 3px 3px #00000022;
 }
@@ -183,12 +180,12 @@ body {
 
 #pricelist #full-pricelist {
     margin: 0 auto;
-    font-size: 1.5rem;
-    width: 22rem;
+    font-size: 3rem;
+    width: 90%;
 }
 
 #pricelist #full-pricelist th {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 #pricelist #full-pricelist td:last-child {
@@ -205,4 +202,11 @@ body {
 
 #pricelist .dash-line {
     border-top: 3px dashed #dad8d1;
+}
+
+@media only screen and (min-width: 1100px) {
+    #footer-content { padding-left: 2.5rem; }
+    .showcase .desc { font-size: 2rem; }
+    #pricelist #full-pricelist { font-size: 1.5rem; width: 22rem; }
+    #pricelist #full-pricelist th { font-size: 2rem; }
 }
