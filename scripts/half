@@ -1,0 +1,22 @@
+<table id="full-pricelist">
+  <tr>
+    <th>Half-body</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Sketch B/W</td>
+    <td>$25</td>
+  </tr>
+  <tr>
+    <td>Full Lineart + Color</td>
+    <td>$35</td>
+  </tr>
+  <tr>
+    <td>Semi-realistic B/W</td>
+    <td>$55</td>
+  </tr>
+  <tr>
+    <td>Semi-realistic Color</td>
+    <td>$70</td>
+  </tr>
+</table>

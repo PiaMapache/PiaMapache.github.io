@@ -1,0 +1,22 @@
+<table id="full-pricelist">
+  <tr>
+    <th>Bust</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Sketch B/W</td>
+    <td>$15</td>
+  </tr>
+  <tr>
+    <td>Full Lineart + Color</td>
+    <td>$25</td>
+  </tr>
+  <tr>
+    <td>Semi-realistic B/W</td>
+    <td>$40</td>
+  </tr>
+  <tr>
+    <td>Semi-realistic Color</td>
+    <td>$45</td>
+  </tr>
+</table>
