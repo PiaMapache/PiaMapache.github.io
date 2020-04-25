@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Josefin+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 
 /* OTHER GOOD COLORS
@@ -26,7 +26,7 @@ body {
 }
 
 #footer {
-    margin-top: 100px;
+    /*margin-top: 100px;/**/
 }
 
 #header-content {
@@ -48,11 +48,10 @@ body {
 #header #header-content #title {
     position: relative;
     display: inline-block; 
-    top: 0.8rem;
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    font-size: 2.6rem;
-    font-weight: light;
+}
+
+#header #header-content #title img {
+    height: 4rem;
 }
 
 #header #header-content #linkbox {
@@ -90,12 +89,15 @@ body {
 .main-content {
     max-width: 50rem;
     margin: 0 auto;
-    margin-top: 2rem;
+    border-right: 3px dashed #dad8d1;
+    border-left: 3px dashed #dad8d1;
+    padding-top: 2rem;
+    padding-bottom: 100px;
 }
 
 /* PRICELIST STYLES */
 #pricelist {
-    
+
 }
 
 #cards {
@@ -152,6 +154,7 @@ body {
 .showcase .art img {
     width: 70%;
     max-width: 220px;
+    box-shadow: 2px 3px 3px #00000022;
 }
 
 .showcase .art-left img {
@@ -165,14 +168,25 @@ body {
 #pricelist #full-pricelist {
     margin: 0 auto;
     font-size: 1.5rem;
+    width: 22rem;
 }
 
 #pricelist #full-pricelist th {
-    padding-top: 2rem;
     font-size: 2rem;
 }
 
 #pricelist #full-pricelist td:last-child {
     padding-left: 6rem;
     text-align: right;
+}
+
+#pricelist .separator {
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#pricelist .dash-line {
+    border-top: 3px dashed #dad8d1;
 }

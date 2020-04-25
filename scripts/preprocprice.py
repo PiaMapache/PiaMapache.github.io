@@ -1,4 +1,4 @@
-pl = open("pricelist.csv")
+pl = open("listextra.csv")
 print("<table id=\"full-pricelist\">")
 for row in pl:
     print("  <tr>")
