@@ -136,13 +136,11 @@ body {
 }
 
 .showcase .desc-right {
-    rotate: -5deg;
     padding-left: 3rem;
     right: 1rem;
 }
 
 .showcase .desc-left {
-    rotate: 5deg;
     padding-right: 3rem;
     left: 1rem;
 }
@@ -157,12 +155,30 @@ body {
     box-shadow: 2px 3px 3px #00000022;
 }
 
-.showcase .art-left img {
-    rotate: -5deg;
+/*.showcase .art-left img {
+    
 }
 
 .showcase .art-right img {
-    rotate: 5deg;
+    
+}*/
+
+.showcase .rot-left {
+    transform:rotate(-5deg);
+    behavior:url(-ms-transform.htc);  
+    -moz-transform:rotate(-5deg);  
+    -webkit-transform:rotate(-5deg);  
+    -o-transform:rotate(-5deg);  
+    -ms-transform:rotate(-5deg);
+}
+
+.showcase .rot-right {
+    transform:rotate(5deg);
+    behavior:url(-ms-transform.htc);  
+    -moz-transform:rotate(5deg);  
+    -webkit-transform:rotate(5deg);  
+    -o-transform:rotate(5deg);  
+    -ms-transform:rotate(5deg);
 }
 
 #pricelist #full-pricelist {
