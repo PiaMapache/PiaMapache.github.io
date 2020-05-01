@@ -9,6 +9,8 @@
 */
 
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'Caveat', sans-serif;
     color: #95a3a3;
     background-color: #f7f5ed;
@@ -24,8 +26,12 @@ body {
     box-shadow: 2px 3px 3px #00000022;
 }
 
+#header {
+    border-radius: 0 0 6px 6px;
+}
+
 #footer {
-    /**/
+    border-radius: 6px 6px 0 0;
 }
 
 #header-content {
@@ -82,15 +88,63 @@ body {
     padding-right: 0.2rem;
 }
 
+/* NAVIGATION STYLES */
+#navigation-content {
+    margin-left: 1rem;
+}
+
+.nav-button {
+    position: relative;
+    display: inline-block;
+    
+    background-color: #9fabac;
+    border-radius: 0 0 6px 6px;
+
+    padding-bottom: 0.2rem;
+    box-shadow: 2px 3px 3px #00000022;
+}
+
+.nav-button #current-page {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.3rem;
+
+    padding: 1rem;
+}
+
+.nav-button a {
+    color: #4f5b5c;
+    text-decoration: none;
+    font-size: 2.3rem;
+
+    padding: 1rem;
+}
+
 /* COMMON CONTENT STYLES */
-.main-content {
-    max-width: 50rem;
+#content {
+    max-width: 44rem;
     margin: 0 auto;
     border-right: 3px dashed #dad8d1;
     border-left: 3px dashed #dad8d1;
+}
+
+#main-content {
     padding-top: 2rem;
     padding-bottom: 100px;
 }
+
+#content iframe {
+    min-width: 40rem;
+    max-width: 50rem;
+    height: 800px;
+    margin: 0 auto;
+}
+
+/* Titles */
+#pricelist #full-pricelist th, .page-title {
+    font-size: 4rem;
+}
+
 
 /* PRICELIST STYLES */
 #pricelist {
@@ -204,9 +258,32 @@ body {
     border-top: 3px dashed #dad8d1;
 }
 
+/* TERMS AND CONDITIONS STYLES */
+
+#terms-and-conditions #description {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+
+#terms-and-conditions #description a {
+    color: #2f2963;
+}
+
+
 @media only screen and (min-width: 1100px) {
+    /* Common */
+    #pricelist #full-pricelist th, .page-title { font-size: 2rem; }
     #footer-content { padding-left: 2.5rem; }
+
+    /* Navigation */
+    .nav-button a, .nav-button #current-page { font-size: 1.7rem; }
+
+    /* Pricelist */
     .showcase .desc { font-size: 2rem; }
     #pricelist #full-pricelist { font-size: 1.5rem; width: 22rem; }
-    #pricelist #full-pricelist th { font-size: 2rem; }
+
+    /* Terms and Conditions */
+    #terms-and-conditions #description { font-size: 1.3rem; }
 }
+
