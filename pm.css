@@ -9,12 +9,15 @@
 
 */
 
-body, html {
+body {
     padding: 0;
     margin: 0;
     font-family: 'Caveat', sans-serif;
     color: #5d6b6b;
     background-color: #f7f5ed;
+}
+
+body, html {
     height: 100%;
 }
 
@@ -210,6 +213,7 @@ p {
 
 #cards {
     /*border: 4px dashed #6d9093;/**/
+    background: transparent;
 }
 
 .showcase {
@@ -237,7 +241,7 @@ p {
     /*width: auto;/**/
     position: relative;
     bottom: 6.5rem;
-    background-color: #e2e2e2;
+    /*background-color: #e2e2e2;*/
     font-size: 2.5rem;
     border-radius: 0.2rem;
     z-index: -2;
