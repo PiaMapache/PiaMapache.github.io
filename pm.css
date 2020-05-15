@@ -41,12 +41,12 @@ a {
 
 #header-content {
     margin: 0 auto;
-    max-width: 44rem;
+    max-width: 41rem;
     /* max-width: 40rem; /**/
 }
 
 #footer-content {
-    padding-left: 1em;
+    padding-left: 1rem;
     padding-top: 1.4em;
     top: 0.8rem;
     color: white;
@@ -56,12 +56,16 @@ a {
 
 #header #header-content #title {
     position: relative;
-    top: 1.8rem;
+    bottom: -1rem;
     display: inline-block; 
     color: white;
     font-family: 'Nanum Pen Script', cursive;
     /*font-size: 3rem; /**/
-    font-size: 3rem; /**/
+    font-size: 3.75rem; /**/
+}
+
+#header #header-content #title-p {
+    font-size: 4.3rem;
 }
 
 #header #header-content #title img {
@@ -315,7 +319,8 @@ a {
 
 @media only screen and (min-width: 1100px) {
     /* Header */
-    #header #header-content #title { top: 2.2rem; font-size: 2.5rem; left: -2rem;}
+    #header #header-content #title { bottom: -1.5rem; font-size: 3.126rem; left: -2rem;}
+    #header #header-content #title-p { font-size: 3.7rem; }
 
     /* Common */
     #pricelist #full-pricelist th, .page-title { font-size: 2rem; }
