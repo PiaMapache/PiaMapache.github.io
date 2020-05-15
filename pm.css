@@ -13,12 +13,16 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Caveat', sans-serif;
-    color: #95a3a3;
+    color: #5d6b6b;
     background-color: #f7f5ed;
 }
 
 a {
     color: #678181;
+}
+
+p {
+    color: #404d4d;
 }
 
 /* HEADER & FOOTER STYLES */
