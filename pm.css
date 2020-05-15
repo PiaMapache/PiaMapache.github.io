@@ -241,7 +241,7 @@ p {
     /*width: auto;/**/
     position: relative;
     bottom: 6.5rem;
-    /*background-color: #e2e2e2;*/
+    background-color: #e2e2e2;
     font-size: 2.5rem;
     border-radius: 0.2rem;
     z-index: -2;
