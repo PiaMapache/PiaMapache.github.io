@@ -17,6 +17,10 @@ body {
     background-color: #f7f5ed;
 }
 
+body, html {
+    height: 100%;
+}
+
 a {
     color: #678181;
 }
@@ -41,6 +45,11 @@ p {
 
 #footer {
     border-radius: 6px 6px 0 0;
+    /*position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0% auto;*/
 }
 
 #header-content {
@@ -145,6 +154,7 @@ p {
     margin: 0 auto;
     border-right: 3px dashed #dad8d1;
     border-left: 3px dashed #dad8d1;
+    min-height: calc(100% - 12rem);
 }
 
 #main-content {
@@ -203,6 +213,7 @@ p {
 
 #cards {
     /*border: 4px dashed #6d9093;/**/
+    background: transparent;
 }
 
 .showcase {
