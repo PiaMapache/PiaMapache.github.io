@@ -22,7 +22,14 @@ function ungallerize() {
 }
 
 function getGET () {
-    var ga = location.search.split('?')[1].split('&');
+    var gs = location.search.split('?');
+
+    // In this case there is no GET string, so act accordingly
+    if (gs.length == 1) {
+        return {};
+    }
+
+    var ga = gs[1].split('&');
 
     var get = {};
 
