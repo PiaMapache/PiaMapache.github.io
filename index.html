@@ -4,13 +4,11 @@
 <meta charset="UTF-8" />
 <title>Pia Mapache.</title>
 <link rel="stylesheet" type="text/css" href="pm.css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="common.js"></script>
+<script>
    jQuery(document).ready(function(){
-        // TEMP
-        //jQuery("#darkroom").load("dr.html");
-
-        var tab = location.search.replace('?', '').split('=')[1];
+        var tab = GET["tab"];
         jQuery("#header").load("header.html");
         jQuery("#navigation").load("navigation.html");
         
