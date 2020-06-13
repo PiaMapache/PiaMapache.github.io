@@ -68,6 +68,7 @@ function gallerize(imageID) {
     //jQuery("#lt").load("lighttable.html");
     var nlt = document.createElement("div");
     nlt.id = "lighttable";
+    nlt.onclick = function () { ungallerize(); };
 
     document.getElementById("lt").appendChild(nlt);
 
