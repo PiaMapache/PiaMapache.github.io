@@ -340,8 +340,18 @@ p {
     color: #2f2963;
 }
 
+/* GALLERY STYLES */
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
 
-@media only screen and (min-width: 1100px) {
+.art-grid .thumbnail {
+    width: 100%;
+    box-shadow: 2px 3px 3px #00000022;
+}
+
+@media only screen and (min-width: 1200px) {
     /* Header */
     #header #header-content #title { bottom: -1.5rem; font-size: 3.126rem; left: -2rem;}
     #header #header-content #title-p { font-size: 3.7rem; }
@@ -362,4 +372,7 @@ p {
 
     /* Terms and Conditions */
     #terms-and-conditions #description { font-size: 1.3rem; }
+
+    /* Gallery */
+    .art-grid { grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); }
 }
