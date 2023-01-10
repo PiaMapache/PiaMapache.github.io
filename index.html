@@ -7,42 +7,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://famellad.github.io/js/utils.js"></script>
 <script src="common.js"></script>
-<script>
-   jQuery(document).ready(function(){
-        var tab = "pricelist";
-        if (hasGET) tab = GET["tab"];
-        
-        jQuery("#header").load("header.html");
-        jQuery("#navigation").load("navigation.html");
-       
-        if (tab == "about") {
-            jQuery("#main-content").load("content-about.html #about");
-        }
-        else if (tab == "artwork") {
-            jQuery("#main-content").load("content-artwork.html #artwork", function () {
-                callList();
-            });
-        }
-        else if (tab == "pricelist") {
-            jQuery("#main-content").load("content-prices.html #pricelist");
-        }
-        else if (tab == "tac") {
-            jQuery("#main-content").load("content-tac.html #terms-and-conditions");
-        }
-        else {
-           jQuery("#main-content").load("content-prices.html #pricelist");
-        }
-        jQuery("#footer").load("footer.html");
-   });
-</script>
 </head>
 <body>
-<div id="darkroom"></div>
-<div id="header"></div>
-<div id="content">
-    <div id="navigation"></div>
-    <div id="main-content"></div>
-</div>
-<div id="footer"></div>
+Temporarily under construction!
 </body>
 </html>
